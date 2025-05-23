@@ -32,14 +32,16 @@ How to Run Locally
 Clone the repo and set it up: bash
 git clone git@github.com:yourusername/my-blog.git cd my-blog
 # Frontend setup
-cd frontend npm install npm run build
+cd frontend
+npm install
+npm run build
+
 # Backend setup
 cd ../backend
-python -m venv venv
-source venv/bin/activate pip install -r requirements.txt uvicorn main:app
--host 0.0.0.0 —port 8000
-Then go to http://localhost
-
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+uvicorn main:app --host 0.0.0.0 --port 8000
 # 🔧 NGINX Setup
 server {
     listen 80;
