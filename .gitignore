@@ -1,0 +1,9 @@
+# Node. js
+frontend/ node_modules/ frontend/build/
+# Python
+backend/venv/ backend/_pycache__/ backend/blog. db
+# macOS stuff
+• DS_Store
+# Logs
+*. 10g
+nohup.out
